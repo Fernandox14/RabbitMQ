@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "web": "StartDebugging",
+        "webconsumer": "StartDebugging",
+        "consumer": "StartDebugging",
+        "rabbit.producer": "StartDebugging",
+        "rabbit.consumer": "StartDebugging"
+      }
+    }
+  }
+}
